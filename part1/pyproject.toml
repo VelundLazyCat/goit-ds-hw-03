@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw03-new"
+version = "0.1.0"
+description = ""
+authors = ["Viktor <asgardcasting@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mongoengine = "^0.29.1"
+configparser = "^7.1.0"
+pymongo = "^4.10.1"
+faker = "^33.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
